@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, MapPin } from 'lucide-react';
+import { Menu, X, Phone, MapPin, Mail } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.href}
-                className={`text-sm font-medium transition-colors uppercase tracking-wide ${location.pathname === link.href ? 'text-accent-500 font-bold' : 'text-brand-700 hover:text-accent-500'}`}
+                className={`text-sm font-medium transition-colors uppercase tracking-wide ${location.pathname === link.href ? 'text-accent-500' : 'text-brand-700 hover:text-accent-500'}`}
               >
                 {link.name}
               </Link>
@@ -71,8 +71,9 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <div className="pt-4 flex flex-col space-y-3 text-sm text-gray-500">
-            <div className="flex items-center"><Phone size={16} className="mr-2" /> (011) 4123-4567</div>
-            <div className="flex items-center"><MapPin size={16} className="mr-2" /> Buenos Aires, Argentina</div>
+            <div className="flex items-center"><Phone size={16} className="mr-2" /> +5491124009374</div>
+            <div className="flex items-center"><MapPin size={16} className="mr-2" /> Buenos Aires, Pilar Zona Norte</div>
+            <div className="flex items-center"><Mail size={16} className="mr-2" /> centrorenacerbsas@gmail.com</div>
           </div>
         </div>
       )}

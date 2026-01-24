@@ -44,7 +44,7 @@ const AdvisorsSection: React.FC = () => {
 
                         <div className="pt-4">
                             <Button
-                                href="#contact"
+                                href="https://wa.me/5491124009374?text=Hola%20Renacer%20Nuevo!"
                                 icon={<MessageCircle className="w-5 h-5" />}
                             >
                                 Consulta Online

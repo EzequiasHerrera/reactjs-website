@@ -5,18 +5,18 @@ const About: React.FC = () => {
     <section id="about" className="py-20 md:py-28 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
-          
+
           {/* Image Grid */}
           <div className="w-full md:w-1/2 relative">
             <div className="grid grid-cols-2 gap-4">
-              <img 
-                src="https://picsum.photos/400/500?random=1" 
-                alt="Instalaciones" 
+              <img
+                src="https://picsum.photos/400/500?random=1"
+                alt="Instalaciones"
                 className="w-full h-64 object-cover rounded-sm shadow-md mt-8"
               />
-              <img 
-                src="https://picsum.photos/400/500?random=2" 
-                alt="Atención" 
+              <img
+                src="https://picsum.photos/400/500?random=2"
+                alt="Atención"
                 className="w-full h-64 object-cover rounded-sm shadow-md"
               />
             </div>
@@ -35,7 +35,7 @@ const About: React.FC = () => {
             <p className="text-brand-600 mb-8 leading-relaxed">
               Nuestra misión es facilitar cada paso del proceso, encargándonos de todos los detalles operativos y burocráticos para que usted pueda enfocarse en lo más importante: honrar la memoria y estar junto a sus afectos.
             </p>
-            
+
             <div className="grid grid-cols-2 gap-6 border-t border-brand-100 pt-8 mb-10">
               <div>
                 <span className="block text-4xl font-serif text-brand-800 font-bold mb-1">24hs</span>
@@ -47,8 +47,10 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            <a 
-              href="#contact" 
+            <a
+              href="https://wa.me/5491124009374?text=Hola%20Renacer%20Nuevo!"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-brand-900 text-white font-medium rounded-sm uppercase tracking-widest hover:bg-accent-500 transition-colors shadow-lg"
             >
               Consulta Online

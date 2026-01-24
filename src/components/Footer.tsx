@@ -22,7 +22,12 @@ const Footer: React.FC = () => {
           <div>
             <h5 className="font-serif font-bold text-lg mb-6 text-brand-900 uppercase tracking-wider">Dónde Estamos</h5>
             <p className="text-gray-600 text-base font-medium">
-              Buenos Aires, Argentina
+              Buenos Aires, Pilar Zona Norte
+            </p>
+            <p className="text-gray-600 text-base font-medium mt-2">
+              <a href="mailto:centrorenacerbsas@gmail.com" className="hover:text-accent-600 transition-colors">
+                centrorenacerbsas@gmail.com
+              </a>
             </p>
           </div>
 
@@ -32,7 +37,7 @@ const Footer: React.FC = () => {
               Nuestro enfoque colaborativo fomenta un ambiente de confianza y motivación, permitiéndote desarrollarte plenamente en un camino hacia el bienestar y la autorrealización.
             </p>
             <a
-              href="https://wa.me/5491141234567"
+              href="https://wa.me/5491124009374?text=Hola%20Renacer%20Nuevo!"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-accent-600 font-bold hover:text-accent-700 transition-colors"

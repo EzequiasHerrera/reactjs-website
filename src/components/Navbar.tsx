@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           {/* Logo ajustado para fondo oscuro */}
           <Link to="/" className="flex items-center">
             <img
-              src='src/assets/images/smalllogo.png'
+              src='../assets/images/smalllogo.png'
               alt="Logo"
               className="h-12 w-auto" // Filtro para hacer el logo blanco
             />

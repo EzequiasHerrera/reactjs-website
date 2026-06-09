@@ -18,8 +18,8 @@ const AdvisorsSection: React.FC = () => {
                     <div className="lg:w-5/12 text-center">
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-brand-900">
                             <span className="text-accent-600">ASESORES</span> <br />
-                            <span className="text-accent-600">EN LINEA</span> <br />
-                            <span className="font-bold text-[rgb(147,196,125)]">LAS 24HS</span>
+                            <span className="">EN LINEA</span> <br />
+                            <span className="font-bold text-accent-600">LAS 24HS</span>
                         </h2>
                         <div className="h-1 w-24 bg-accent-500 mx-auto lg:ml-auto rounded-full mt-6"></div>
                     </div>

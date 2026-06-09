@@ -27,7 +27,7 @@ const AdvisorsSection: React.FC = () => {
                     {/* Right Column: Content */}
                     <div className="lg:w-7/12 space-y-3 text-center lg:text-left">
                         <h3 className="text-accent-500 text-2xl md:text-3xl font-serif font-bold leading-snug">
-                            ¡Comenza un nuevo renacer con nosotros!
+                            ¡Comenza de nuevo con nosotros!
                         </h3>
 
                         <div className="space-y-3 text-brand-600 text-lg leading-relaxed font-light">

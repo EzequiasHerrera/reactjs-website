@@ -25,8 +25,8 @@ const Footer: React.FC = () => {
               Buenos Aires, Pilar Zona Norte
             </p>
             <p className="text-gray-600 text-base font-medium mt-2">
-              <a href="mailto:centrorenacerbsas@gmail.com" className="hover:text-accent-600 transition-colors">
-                centrorenacerbsas@gmail.com
+              <a href="mailto:centrofortisbsas@gmail.com" className="hover:text-accent-600 transition-colors">
+                centrofortisbsas@gmail.com
               </a>
             </p>
           </div>

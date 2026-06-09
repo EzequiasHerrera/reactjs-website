@@ -32,11 +32,19 @@ const Button: React.FC<ButtonProps> = ({
   `;
 
     // Variant specific classes
+    // Variant specific classes
     const variantClasses = {
-        primary: 'bg-accent-600 text-white hover:bg-accent-700 hover:-translate-y-1 shadow-lg hover:shadow-accent-500/30',
-        secondary: 'bg-brand-900 text-white hover:bg-brand-800 hover:-translate-y-1 shadow-lg',
-        outline: 'bg-transparent border-2 border-accent-600 text-accent-600 hover:bg-accent-600 hover:text-white',
-        ghost: 'bg-transparent text-accent-600 hover:text-accent-700 hover:bg-accent-50',
+        // Amarillo intenso con texto negro
+        primary: 'bg-yellow-400 text-black hover:bg-yellow-500 hover:-translate-y-1 shadow-lg hover:shadow-yellow-400/30',
+
+        // Negro sólido con texto blanco
+        secondary: 'bg-gray-950 text-white hover:bg-black hover:-translate-y-1 shadow-lg',
+
+        // Borde amarillo sobre fondo transparente
+        outline: 'bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black',
+
+        // Versión sutil con texto amarillo
+        ghost: 'bg-transparent text-yellow-400 hover:text-yellow-300 hover:bg-yellow-400/10',
     };
 
     const combinedClasses = `${baseClasses} ${variantClasses[variant]} ${className}`;

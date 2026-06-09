@@ -27,10 +27,10 @@ const Contact: React.FC = () => {
               Buenos Aires, Pilar Zona Norte
             </p>
             <a
-              href="mailto:centrorenacerbsas@gmail.com"
+              href="mailto:centrofortisbsas@gmail.com"
               className="block text-lg md:text-xl text-brand-600 hover:text-accent-500 transition-colors"
             >
-              centrorenacerbsas@gmail.com
+              centrofortisbsas@gmail.com
             </a>
           </div>
         </div>

@@ -30,7 +30,7 @@ const About: React.FC = () => {
               Una trayectoria de compromiso y empatía
             </h2>
             <p className="text-brand-600 mb-6 leading-relaxed">
-              En <strong>Renacer Nuevo</strong>, entendemos que despedir a un ser querido es uno de los momentos más trascendentales de la vida. Por eso, nos dedicamos a brindar un servicio que combine la eficiencia profesional con la calidez humana que las familias necesitan.
+              En <strong>FORTIS</strong>, entendemos que despedir a un ser querido es uno de los momentos más trascendentales de la vida. Por eso, nos dedicamos a brindar un servicio que combine la eficiencia profesional con la calidez humana que las familias necesitan.
             </p>
             <p className="text-brand-600 mb-8 leading-relaxed">
               Nuestra misión es facilitar cada paso del proceso, encargándonos de todos los detalles operativos y burocráticos para que usted pueda enfocarse en lo más importante: honrar la memoria y estar junto a sus afectos.

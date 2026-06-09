@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, MapPin, Mail } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/images/smalllogo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar: React.FC = () => {
           {/* Logo ajustado para fondo oscuro */}
           <Link to="/" className="flex items-center">
             <img
-              src='../assets/images/smalllogo.png'
+              src={logo}
               alt="Logo"
               className="h-12 w-auto" // Filtro para hacer el logo blanco
             />

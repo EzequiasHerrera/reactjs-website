@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import img1 from '../assets/images/comunidad-terapeutica.webp';
-import img2 from '../assets/images/nosotros.webp';
+import img2 from '../assets/images/03.jpeg';
 
 const slides = [
   {

@@ -3,24 +3,14 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import img03 from '../assets/images/03.webp';
-import img04 from '../assets/images/04.jpg';
-import img05 from '../assets/images/05.jpg';
-import img06 from '../assets/images/06.jpg';
-import img07 from '../assets/images/07.jpg';
-import img08 from '../assets/images/08.webp';
-import img09 from '../assets/images/09.webp';
-import img10 from '../assets/images/10.jpg';
+import img01 from '../assets/images/01.jpeg';
+import img02 from '../assets/images/02.jpeg';
+import img03 from '../assets/images/03.jpeg';
 
 const images = [
-    img03,
-    img04,
-    img05,
-    img06,
-    img07,
-    img08,
-    img09,
-    img10
+    img01,
+    img02,
+    img03
 ];
 
 const InstallationsGallery: React.FC = () => {

@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import img1 from '../assets/images/comunidad-terapeutica.webp';
-import img2 from '../assets/images/nosotros.webp';
+import img2 from '../assets/images/FORTIS_LOGOFRASE.png';
 
 const slides = [
     {

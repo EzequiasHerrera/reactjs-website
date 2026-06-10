@@ -17,12 +17,12 @@ const Testimonials: React.FC = () => {
                         <Quote className="absolute top-6 left-6 text-accent-500 opacity-20 w-10 h-10" />
                         <div className="flex-grow flex items-center justify-center mt-4">
                             <p className="text-gray-400 italic text-center text-lg leading-relaxed">
-                                "Llegué a la comunidad sin esperanza, abatido por mis propias conductas. Aquí encontré un hogar, una familia y la oportunidad de reconstruir mi vida. Gracias al apoyo del equipo y mis compañeros, hoy siento la libertad en mi interior y un futuro prometedor por delante."
+                                "Llegué buscando una salida y encontré mucho más que eso: encontré una razón para despertar cada día con esperanza. La contención recibida aquí fue el pilar fundamental que me permitió reconstruir mi confianza y dejar atrás las sombras de mi pasado. Hoy vivo con plenitud y metas claras."
                             </p>
                         </div>
                         <div className="mt-8 text-center pt-6 border-t border-brand-100">
-                            <p className="font-bold text-gray-400 text-lg">Carlos</p>
-                            <p className="text-accent-600 text-sm font-bold">40 años</p>
+                            <p className="font-bold text-gray-400 text-lg">Roberto S.</p>
+                            <p className="text-accent-600 text-sm font-bold">52 años</p>
                         </div>
                     </div>
 
@@ -31,12 +31,12 @@ const Testimonials: React.FC = () => {
                         <Quote className="absolute top-6 left-6 text-accent-500 opacity-20 w-10 h-10" />
                         <div className="flex-grow flex items-center justify-center mt-4">
                             <p className="text-gray-400 italic text-center text-lg leading-relaxed">
-                                "Cuando llegué, me sentía perdido y sin rumbo. En esta comunidad encontré no solo apoyo, sino un verdadero hogar. El acompañamiento y la calidez del equipo me ayudaron a redescubrir mi valor y a construir una vida con propósito. Hoy me siento más fuerte, con la certeza de que puedo superar cualquier desafío."
+                                "Pensé que era tarde para cambiar, pero este espacio me demostró lo contrario. La guía profesional y el apoyo constante de los compañeros me dieron las herramientas necesarias para transformar mi realidad. Me siento una persona nueva, capaz de enfrentar el mundo con serenidad y una voluntad renovada."
                             </p>
                         </div>
                         <div className="mt-8 text-center pt-6 border-t border-brand-100">
-                            <p className="font-bold text-gray-400 text-lg">Martín R.</p>
-                            <p className="text-accent-600 text-sm font-bold">45 años</p>
+                            <p className="font-bold text-gray-400 text-lg">Lucía V.</p>
+                            <p className="text-accent-600 text-sm font-bold">38 años</p>
                         </div>
                     </div>
 
@@ -45,12 +45,12 @@ const Testimonials: React.FC = () => {
                         <Quote className="absolute top-6 left-6 text-accent-500 opacity-20 w-10 h-10" />
                         <div className="flex-grow flex items-center justify-center mt-4">
                             <p className="text-gray-400 italic text-center text-lg leading-relaxed">
-                                "Nunca imaginé que un lugar pudiera cambiar tanto mi vida. Aquí aprendí a valorarme, a sanar mis heridas emocionales y a rodearme de personas que realmente me impulsan a ser mejor. Estoy profundamente agradecida por cada palabra de aliento y por el ambiente de respeto que me permitió crecer."
+                                "Esta comunidad se convirtió en mi lugar seguro, un refugio donde pude ser yo mismo sin miedo a ser juzgado. Gracias a este acompañamiento, logré sanar vínculos y, sobre todo, aprender a valorarme nuevamente. Cada paso aquí ha sido decisivo para recuperar mi libertad y mi paz mental."
                             </p>
                         </div>
                         <div className="mt-8 text-center pt-6 border-t border-brand-100">
-                            <p className="font-bold text-gray-400 text-lg">Carolina M.</p>
-                            <p className="text-accent-600 text-sm font-bold">34 años</p>
+                            <p className="font-bold text-gray-400 text-lg">Julián D.</p>
+                            <p className="text-accent-600 text-sm font-bold">29 años</p>
                         </div>
                     </div>
                 </div>
